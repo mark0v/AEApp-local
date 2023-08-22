@@ -4,8 +4,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.0.31825.309
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductAPI", "ProductAPI.csproj", "{FF414B2D-E63B-4AFC-8698-FF8AA7E1C5CF}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F72EA844-65B2-4D64-93BF-802FA35EBC36} = {F72EA844-65B2-4D64-93BF-802FA35EBC36}
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EAWebApp", "..\EAWebApp\EAWebApp.csproj", "{F72EA844-65B2-4D64-93BF-802FA35EBC36}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EAWebApp", "..\EAWebApp\EAWebApp.csproj", "{F72EA844-65B2-4D64-93BF-802FA35EBC36}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
